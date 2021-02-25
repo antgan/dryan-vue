@@ -22,7 +22,6 @@ export default {
   methods: {
     changeRouter(key){
       this.$router.push(key)
-
     }
   }
 }

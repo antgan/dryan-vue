@@ -14,6 +14,7 @@ export default new Router({
   routes: [
     {
       path: '/',
+      alias: "/login",
       name: 'Login',
       component: Login
     },
